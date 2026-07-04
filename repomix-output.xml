@@ -1,0 +1,1203 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/Design patterns and principles/ExcelDocument.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/Design patterns and principles/Factory.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/Design patterns and principles/FactoryMethodPattern.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/Design patterns and principles/FactoryMethodPattern.java
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/Design patterns and principles/file.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/Design patterns and principles/Logger.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/Design patterns and principles/PdfDocument.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/Design patterns and principles/SingletonPatternExample.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/Design patterns and principles/SingletonPatternExample.java
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/Design patterns and principles/WordDocument.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/binarySearch.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/ecommerce.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/ecommerce.java
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/financialForecast.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/financialForecast.java
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/InventoryManagement.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/InventoryManagement.java
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/InventoryManager.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/linearSearch.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/order.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/product.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/recurFinance.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/sortorders.class
+digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/sortorders.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/JUnit, Mockito and SL4J.code-workspace
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/pom.xml
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/main/java/Exercise2/Calculator.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/main/java/Exercise4/Calculator.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/main/java/ProjectName.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/test/java/Exercise1/SampleTest.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/test/java/Exercise2/CalculatorTest.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/test/java/Exercise3/AssertionsTest.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/test/java/Exercise4/CalculatorTest.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/pom.xml
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/src/main/java/Exercise1/ExternalAPI.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/src/main/java/Exercise1/MyService.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/src/main/java/Exercise2/ExternalAPI.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/src/main/java/Exercise2/MyService.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/src/test/java/Exercise1/MyServiceTest.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/src/test/java/Exercise2/MyServiceTest.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/SLF4JExercises/pom.xml
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/SLF4JExercises/src/main/java/Exercise1/LoggingExample.java
+digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/SLF4JExercises/src/main/java/Exercise1/SLF4JExercises.java
+digital-nature-5.0-main/Java FSE/Deepskilling/PLSQL exercises/.vscode/extensions.json
+digital-nature-5.0-main/Java FSE/Deepskilling/PLSQL exercises/controlstructures.sql
+digital-nature-5.0-main/Java FSE/Deepskilling/PLSQL exercises/sample.sql
+digital-nature-5.0-main/Java FSE/Deepskilling/PLSQL exercises/schema.sql
+digital-nature-5.0-main/Java FSE/Deepskilling/PLSQL exercises/storedprocedures.sql
+digital-nature-5.0-main/Java FSE/Upskilling/Module-1-HTML5/event1.jpg
+digital-nature-5.0-main/Java FSE/Upskilling/Module-1-HTML5/event2.jpg
+digital-nature-5.0-main/Java FSE/Upskilling/Module-1-HTML5/event3.jpg
+digital-nature-5.0-main/Java FSE/Upskilling/Module-1-HTML5/event4.jpg
+digital-nature-5.0-main/Java FSE/Upskilling/Module-1-HTML5/event5.jpg
+digital-nature-5.0-main/Java FSE/Upskilling/Module-1-HTML5/event6.jpg
+digital-nature-5.0-main/Java FSE/Upskilling/Module-1-HTML5/index.html
+digital-nature-5.0-main/Java FSE/Upskilling/Module-1-HTML5/style.css
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/Design patterns and principles/FactoryMethodPattern.java">
+public class FactoryMethodPattern{
+    public static void main(String[] args) {
+        Factory factory = new Factory();
+        file wordFile = factory.createFile("word");
+        wordFile.create();
+        file pdfFile = factory.createFile("pdf");
+        pdfFile.create();
+        file excelFile = factory.createFile("excel");
+        excelFile.create();
+    }
+}
+class Factory{
+    public file createFile(String fileType){
+        if(fileType.equalsIgnoreCase("word")){
+            return new WordDocument();
+        }
+        else if(fileType.equalsIgnoreCase("pdf")){
+            return new PdfDocument();
+        }
+        else if(fileType.equalsIgnoreCase("excel")){
+            return new ExcelDocument();
+        }
+        else{
+            return null;
+        }
+    }
+
+}
+interface file{
+    public void create();
+}
+class WordDocument implements file{
+    public void create(){
+        System.out.println("Word doc created.");
+    }
+}
+class PdfDocument implements file{
+    public void create(){
+        System.out.println("PDF doc created.");
+    }
+}
+class ExcelDocument implements file{
+    public void create(){
+        System.out.println("Excel doc created.");
+    }
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/Design patterns and principles/SingletonPatternExample.java">
+class Logger{
+    private static Logger instance;
+
+    private Logger(){
+        
+    }
+    public static Logger getInstance(){
+        if(instance == null){
+            instance= new Logger();
+        }
+        return instance;
+    }
+}
+class SingletonPatternExample {
+    public static void main(String[] args) {
+        Logger logger1 = Logger.getInstance();
+        Logger logger2 = Logger.getInstance();
+        if (logger1==logger2) {
+            System.out.println("Both logger1 and logger2 are the same instance.");
+        }
+        else{
+            System.out.println("different instances.");
+        }
+    }
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/ecommerce.java">
+public class ecommerce{
+    public static void main(String[] args){
+        product[] products = {new product(1,"toys","kids"),
+        new product(2,"pens","stationary"),
+        new product(3,"paper","stationary"),
+        new product(4,"balls","kids"),
+        new product(5,"brush","cosm")};
+        linearSearch ls = new linearSearch();
+        binarySearch bs = new binarySearch();
+        System.out.println(ls.search(products, 4));
+        System.out.println(bs.search(products, 4));
+    }
+
+}
+class product{
+    public int pdId;
+    public String pdName;
+    public String category;
+    public product(int pdId, String pdName, String category){
+        this.pdId=pdId;
+        this.pdName=pdName;
+        this.category=category;
+    }
+}
+class linearSearch{
+    public int search(product[] products, int pdId){
+        for(int i=0; i<products.length;i++){
+            if(pdId==products[i].pdId){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+}
+
+class binarySearch{
+    public int search(product[] products, int pdId){
+        int low=0;
+        int high=products.length-1;
+        while(low<=high){
+            int mid=(low+high)/2;
+            if(pdId==products[mid].pdId){
+                return mid;
+            }
+            else if(pdId<products[mid].pdId){
+                high=mid-1;
+            }
+            else{
+                low=mid+1;
+            }
+        }
+        return -1;
+
+
+    }
+
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/financialForecast.java">
+import java.util.*;
+public class financialForecast{
+    public static void main(String[] args){
+        recurFinance ff = new recurFinance();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter value, rate and years");
+        double currentVal = sc.nextInt();
+        int rate = sc.nextInt();
+        int year = sc.nextInt();
+        System.out.println(ff.forecast(currentVal,rate,year));
+
+    
+    }
+}
+class recurFinance{
+    public double forecast(double currentVal, int rate, int year){
+        if(year==0){
+            return currentVal;
+        }     
+        return forecast(currentVal*(1+(rate/100.0)),rate,year-1);
+    }
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/InventoryManagement.java">
+import java.util.HashMap;
+class product{
+    private String pdId;
+    private String pdName;
+    private int quantity;
+    private double price;
+    public product(String pdId, String pdName, int quantity, double price){
+        this.pdId=pdId;
+        this.pdName=pdName;
+        this.quantity=quantity;
+        this.price=price;
+    }
+    public String getId(){
+        return pdId;
+    }
+    public String getName(){
+        return pdName;
+    }
+    public int getQuantity(){
+        return quantity;
+    }
+    public double getPrice(){
+        return price;
+    }
+    public void setQuantity(int quantity){
+        this.quantity=quantity;
+    }
+    public void setPrice(double price){
+        this.price=price;
+    }
+
+}
+class InventoryManager{
+    private HashMap<String, product> products = new HashMap<>();
+    public void addProduct(product product) {
+        products.put(product.getId(), product);
+    }
+    public void removeProduct(String pdId) {
+        products.remove(pdId);
+    }
+    public void updateQuantity(String pdId, int quantity){
+        product p =products.get(pdId);
+        if(p!=null){
+            p.setQuantity(quantity);
+        }
+    }
+    public void updatePrice(String pdId, double price){
+        product p = products.get(pdId);
+        if(p!=null){
+            p.setPrice(price);
+        }
+    }
+    public void getDetails(String pdId){
+        product p = products.get(pdId);
+        if(p!=null){
+            System.out.println("ID: "+p.getId()+
+            ", Name: "+p.getName()+
+            ", Quantity: "+p.getQuantity()+
+            ", Price: "+p.getPrice());
+        }
+        else{
+            System.out.println("Product not found.");
+        }
+    }
+    public void displayInventory(){
+        System.out.println("Inventory:");
+        for(product p: products.values()){
+            System.out.println("ID: "+p.getId()+
+            ", Name: "+p.getName()+
+            ", Quantity: "+p.getQuantity()+
+            ", Price: "+p.getPrice());
+        }
+    }
+
+}
+public class InventoryManagement {
+    public static void main(String[] args) {
+        InventoryManager inventoryManager = new InventoryManager();
+        product p1 = new product("P001", "pdt1", 20, 100.0);
+        product p2 = new product("P002", "pdt2", 30, 200.0);
+        inventoryManager.addProduct(p1);
+        inventoryManager.addProduct(p2);
+        inventoryManager.displayInventory();
+        
+        inventoryManager.updateQuantity("P001", 25);
+        inventoryManager.getDetails("P001");
+
+        
+    }
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/Engineering concepts/DSA/sortorders.java">
+class order{
+    public int orderId;
+    public String customerName;
+    public double totalPrice;
+    public order(int orderId, String customerName, double totalPrice){
+        this.orderId=orderId;
+        this.customerName=customerName;
+        this.totalPrice=totalPrice;
+    }
+}
+public class sortorders{
+    public static void main(String[] args) {
+        order[] orders1={
+            new order(1,"henry",100000),
+            new order(2,"richard",200),
+            new order(3,"camille",30000),
+            new order(4,"bunny",20000),
+            new order(5,"charles",40000)
+        };
+        quicksort(orders1,0,orders1.length-1);
+        order[] orders2={
+            new order(1,"henry",100000),
+            new order(2,"richard",200),
+            new order(3,"camille",30000),
+            new order(4,"bunny",20000),
+            new order(5,"charles",40000)
+        };
+        bubblesort(orders2);
+        System.out.println("quick sort:");
+        for(order od: orders1){
+            System.out.println(od.orderId + " " + od.totalPrice);
+        }
+        System.out.println("bubble sort:");
+        for(order od: orders2){
+            System.out.println(od.orderId + " " + od.totalPrice);
+        }
+
+    }
+
+    public static void bubblesort(order[] orders){
+        for(int i=0; i<orders.length;i++){
+            for(int j=0;j<orders.length-1;j++){
+                if(orders[j].totalPrice>orders[j+1].totalPrice){
+                    order temp = orders[j];
+                    orders[j] = orders[j+1];
+                    orders[j+1] = temp;
+                }
+            }
+        }
+
+    }
+
+
+    public static void quicksort(order[] orders, int low, int high){
+        if(low>=high){
+            return;
+        }
+        int i=low+1;
+        int j=high;
+        order item;
+        order pivot = orders[low];
+        
+        while(i<j){
+            while(i<=j && orders[i].totalPrice<pivot.totalPrice){
+                i++;
+            }
+            while(i<=j && orders[j].totalPrice>pivot.totalPrice){
+                j--;
+            }
+            if(i<j){
+                item=orders[i];
+                orders[i]=orders[j];
+                orders[j]=item;
+                i++;
+                j--;
+            }
+        }
+        orders[low]=orders[j];
+        orders[j]=pivot;
+
+        
+        quicksort(orders, low, j-1);
+        quicksort(orders,j+1,high);
+        }
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/JUnit, Mockito and SL4J.code-workspace">
+{
+	"folders": [
+		{
+			"path": "../JUnit, Mockito and SL4J"
+		},
+		{
+			"name": "ProjectName",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/pom.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.yourcompany.yourproject</groupId>
+    <artifactId>ProjectName</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>26</maven.compiler.release>
+        <exec.mainClass>org.yourcompany.yourproject.ProjectName</exec.mainClass>
+    </properties>
+    <dependencies>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+    </dependency>
+    </dependencies>
+</project>
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/main/java/Exercise2/Calculator.java">
+package Exercise2;
+public class Calculator {
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/main/java/Exercise4/Calculator.java">
+package Exercise4;
+
+public class Calculator {
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/main/java/ProjectName.java">
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+
+
+/**
+ *
+ * @author admin
+ */
+public class ProjectName {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/test/java/Exercise1/SampleTest.java">
+package Exercise1;
+
+import org.junit.Test;
+
+public class SampleTest {
+
+    @Test
+    public void testPrint() {
+        System.out.println("Hello! JUnit test is running.");
+    }
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/test/java/Exercise2/CalculatorTest.java">
+package Exercise2;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+public class CalculatorTest {
+
+    @Test
+    public void testAdd() {
+        Calculator calculator = new Calculator();
+        assertEquals(5, calculator.add(2, 3));
+    }
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/test/java/Exercise3/AssertionsTest.java">
+package Exercise3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import org.junit.Test;
+public class AssertionsTest {
+
+    @Test
+    public void testAssertions() {
+
+        // Checks if expected equals actual
+        assertEquals(5, 2 + 3);
+
+        // Checks if condition is true
+        assertTrue(5 > 3);
+
+        // Checks if condition is false
+        assertFalse(5 < 3);
+
+        // Checks if value is null
+        assertNull(null);
+
+        // Checks if object is not null
+        assertNotNull(new Object());
+    }
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/JUnitExercises/src/test/java/Exercise4/CalculatorTest.java">
+package Exercise4;
+
+import org.junit.After;
+import static org.junit.Assert.assertEquals;
+import org.junit.Before;
+import org.junit.Test;
+
+public class CalculatorTest {
+
+    private Calculator calculator;
+
+    @Before
+    public void setUp(){
+        calculator = new Calculator();
+        System.out.println("Setting up the test environment.");
+    }
+    @After
+    public void tearDown(){
+        calculator = null;
+        System.out.println("Cleaning up the test environment.");
+    }
+    @Test
+    public void testAdd() {
+        //arrange
+        int a =2;
+        int b =3;
+        //act
+        int result = calculator.multiply(a,b);
+        //assert
+        assertEquals(6, result);
+    }
+
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/pom.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.yourcompany.yourproject</groupId>
+    <artifactId>JUnitExercises</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>21</maven.compiler.release>
+        <exec.mainClass>org.yourcompany.yourproject.JUnitExercises</exec.mainClass>
+    </properties>
+    <dependencies>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+    </dependency>
+        <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>5.12.0</version>
+        <scope>test</scope>
+    </dependency>
+    </dependencies>
+</project>
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/src/main/java/Exercise1/ExternalAPI.java">
+package Exercise1;
+
+public interface ExternalAPI {
+    String getData();
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/src/main/java/Exercise1/MyService.java">
+package Exercise1;
+
+public class MyService {
+    private ExternalAPI api;
+    public MyService(ExternalAPI api) {
+        this.api = api;
+    }
+    public String fetchData() {
+        return api.getData();
+    }
+    
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/src/main/java/Exercise2/ExternalAPI.java">
+package Exercise2;
+
+public interface ExternalAPI {
+    String getData();
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/src/main/java/Exercise2/MyService.java">
+package Exercise2;
+
+public class MyService {
+    private ExternalAPI api;
+    public MyService(ExternalAPI api) {
+        this.api = api;
+    }
+    public String fetchData() {
+        return api.getData();
+    }
+    
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/src/test/java/Exercise1/MyServiceTest.java">
+package Exercise1;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import org.mockito.Mockito;
+import static org.mockito.Mockito.when;
+
+public class MyServiceTest{
+    @Test
+    public void testexternalAPI() {
+
+        ExternalAPI mockApi = Mockito.mock(ExternalAPI.class);
+        when(mockApi.getData()).thenReturn("Mocked Data");
+        MyService myService = new MyService(mockApi);
+
+        String result = myService.fetchData();
+        assertEquals("Mocked Data", result);
+
+}
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/MockitoExercises/src/test/java/Exercise2/MyServiceTest.java">
+package Exercise2;
+
+import org.junit.Test;
+import org.mockito.Mockito;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
+public class MyServiceTest{
+    @Test
+    public void testexternalAPI() {
+
+        ExternalAPI mockApi = Mockito.mock(ExternalAPI.class);
+        when(mockApi.getData()).thenReturn("Mocked Data");
+        MyService myService = new MyService(mockApi);
+
+        myService.fetchData();
+        verify(mockApi).getData();
+        
+
+}
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/SLF4JExercises/pom.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>Exercise1</groupId>
+    <artifactId>SLF4JExercises</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>21</maven.compiler.release>
+        <exec.mainClass>Exercise1.LoggingExample</exec.mainClass>
+    </properties>
+    <dependencies>
+    <dependency> 
+    <groupId>org.slf4j</groupId> 
+    <artifactId>slf4j-api</artifactId> 
+    <version>1.7.30</version> 
+    </dependency> 
+    <dependency> 
+    <groupId>ch.qos.logback</groupId> 
+    <artifactId>logback-classic</artifactId> 
+    <version>1.2.3</version> 
+    </dependency> 
+    </dependencies>
+</project>
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/SLF4JExercises/src/main/java/Exercise1/LoggingExample.java">
+package Exercise1;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class LoggingExample {
+    private static final Logger logger = LoggerFactory.getLogger(LoggingExample.class);
+
+    public static void main(String[] args) {
+        logger.info("This is an info message.");
+        logger.warn("This is a warning message.");
+        logger.error("This is an error message.");
+    }
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/SLF4JExercises/src/main/java/Exercise1/SLF4JExercises.java">
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package Exercise1;
+
+/**
+ *
+ * @author admin
+ */
+public class SLF4JExercises {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/PLSQL exercises/.vscode/extensions.json">
+{
+    "recommendations": [
+        "oracle.sql-developer"
+    ]
+}
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/PLSQL exercises/controlstructures.sql">
+--Scenerio 1
+SELECT * FROM Loans;
+BEGIN
+    FOR cust_rec IN (SELECT CustomerID, DOB FROM Customers) LOOP
+        IF FLOOR(MONTHS_BETWEEN(SYSDATE,cust_rec.DOB)/12)>60 THEN
+            UPDATE Loans
+            SET InterestRate = InterestRate - 0.01
+            WHERE CustomerID = cust_rec.CustomerID;
+        END IF;
+    END LOOP;
+    COMMIT;
+END;
+/
+SELECT * FROM Customers;
+--Scenerio 2
+ALTER TABLE Customers ADD Is_VIP NUMBER(1) DEFAULT 0;
+BEGIN
+    FOR cust_rec IN (SELECT CustomerID, Balance FROM Customers) LOOP
+        IF cust_rec.Balance > 10000 THEN
+            UPDATE Customers
+            SET Is_VIP = 1
+            WHERE CustomerID = cust_rec.CustomerID;
+        END IF;
+    END LOOP;
+    COMMIT;
+END;
+/
+
+--Scenerio 3
+BEGIN
+    FOR rec IN (SELECT c.CustomerID, c.Name, l.EndDate FROM Customers c JOIN Loans l 
+    ON c.CustomerID = l.CustomerID WHERE l.EndDate BETWEEN SYSDATE AND SYSDATE + 30) LOOP
+        DBMS_OUTPUT.PUT_LINE('Customer_ID:'||rec.CustomerID||' Name:'||rec.Name||'loan due reminder');
+    END LOOP;
+    COMMIT;
+END;
+/
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/PLSQL exercises/sample.sql">
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
+VALUES (1, 'John Doe', TO_DATE('1985-05-15', 'YYYY-MM-DD'), 1000, SYSDATE);
+
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
+VALUES (2, 'Jane Smith', TO_DATE('1990-07-20', 'YYYY-MM-DD'), 1500, SYSDATE);
+
+
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
+VALUES (3, 'Robert Klein', TO_DATE('1955-02-10', 'YYYY-MM-DD'), 2000, SYSDATE);
+
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
+VALUES (4, 'Priya Nair', TO_DATE('1978-11-02', 'YYYY-MM-DD'), 15000, SYSDATE);
+
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
+VALUES (5, 'Margaret Chu', TO_DATE('1950-09-30', 'YYYY-MM-DD'), 25000, SYSDATE);
+
+
+INSERT INTO Loans (LoanID, CustomerID, LoanAmount, InterestRate, StartDate, EndDate)
+VALUES (1, 1, 5000, 5, SYSDATE, ADD_MONTHS(SYSDATE, 60));
+
+
+INSERT INTO Loans (LoanID, CustomerID, LoanAmount, InterestRate, StartDate, EndDate)
+VALUES (2, 2, 8000, 6, ADD_MONTHS(SYSDATE, -12), SYSDATE + 15);
+
+
+INSERT INTO Loans (LoanID, CustomerID, LoanAmount, InterestRate, StartDate, EndDate)
+VALUES (3, 3, 10000, 7, ADD_MONTHS(SYSDATE, -6), ADD_MONTHS(SYSDATE, 54));
+
+INSERT INTO Loans (LoanID, CustomerID, LoanAmount, InterestRate, StartDate, EndDate)
+VALUES (4, 4, 3000, 4, ADD_MONTHS(SYSDATE, -20), SYSDATE - 5);
+
+INSERT INTO ACCOUNTS VALUES (101,1,'Savings',1000,SYSDATE-50);
+INSERT INTO ACCOUNTS VALUES (102,2,'Checking',1500,SYSDATE-30);
+INSERT INTO ACCOUNTS VALUES (103,3,'Savings',2000,SYSDATE-11);
+INSERT INTO ACCOUNTS VALUES (104,4,'Savings',15000,SYSDATE);
+
+INSERT INTO EMPLOYEES VALUES(1, 'Henry White', 'Manager', 80000, 'Finance', SYSDATE-365);
+INSERT INTO EMPLOYEES VALUES(2, 'Camille Brown', 'Analyst', 60000, 'Finance',SYSDATE-100);
+INSERT INTO EMPLOYEES VALUES(3, 'David Green', 'Clerk', 40000, 'HR', SYSDATE-200);
+
+COMMIT;
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/PLSQL exercises/schema.sql">
+CREATE TABLE Customers (
+    CustomerID    NUMBER PRIMARY KEY,
+    Name          VARCHAR2(100),
+    DOB           DATE,
+    Balance       NUMBER,
+    LastModified  DATE
+);
+
+CREATE TABLE Accounts (
+    AccountID     NUMBER PRIMARY KEY,
+    CustomerID    NUMBER,
+    AccountType   VARCHAR2(20),
+    Balance       NUMBER,
+    LastModified  DATE,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+);
+
+CREATE TABLE Transactions (
+    TransactionID    NUMBER PRIMARY KEY,
+    AccountID        NUMBER,
+    TransactionDate  DATE,
+    Amount           NUMBER,
+    TransactionType  VARCHAR2(10),
+    FOREIGN KEY (AccountID) REFERENCES Accounts(AccountID)
+);
+
+CREATE TABLE Loans (
+    LoanID        NUMBER PRIMARY KEY,
+    CustomerID    NUMBER,
+    LoanAmount    NUMBER,
+    InterestRate  NUMBER,
+    StartDate     DATE,
+    EndDate       DATE,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+);
+
+CREATE TABLE Employees (
+    EmployeeID  NUMBER PRIMARY KEY,
+    Name        VARCHAR2(100),
+    Position    VARCHAR2(50),
+    Salary      NUMBER,
+    Department  VARCHAR2(50),
+    HireDate    DATE
+);
+
+CREATE TABLE AuditLog (
+    LogID           NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    TransactionID   NUMBER,
+    Action          VARCHAR2(50),
+    ActionDate      DATE
+);
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Deepskilling/PLSQL exercises/storedprocedures.sql">
+--Scenerio 1
+CREATE OR REPLACE PROCEDURE ProcessMonthlyInterest IS
+BEGIN
+    UPDATE Accounts
+    SET Balance = Balance + Balance*0.01
+    WHERE AccountType='Savings';
+END;
+/
+COMMIT;
+EXECUTE ProcessMonthlyInterest;
+SELECT * FROM Accounts;
+
+--Scenerio2
+CREATE OR REPLACE PROCEDURE UpdateEmployeeBonus(
+    p_department Employees.department%Type,
+    p_bonus Employees.salary%Type) IS
+    BEGIN
+        UPDATE Employees
+        SET Salary = Salary + p_bonus
+        WHERE Department = p_department;
+    END;
+    /
+    COMMIT;
+EXECUTE UpdateEmployeeBonus('Finance', 5000);
+SELECT * FROM Employees;
+
+
+--Scenerio3
+CREATE OR REPLACE PROCEDURE TransferFunds(
+    p_from_accnt Accounts.AccountID%Type,
+    p_to_accnt Accounts.AccountID%Type,
+    p_amount Accounts.Balance%Type) IS
+    BEGIN
+        DECLARE
+            v_balance Accounts.Balance%Type;
+        BEGIN
+            SELECT Balance INTO v_balance FROM Accounts WHERE AccountID = p_from_accnt;
+            IF v_balance < p_amount THEN
+                DBMS_OUTPUT.PUT_LINE('insufficient balance');
+            ELSE
+                UPDATE Accounts
+                SET Balance = Balance - p_amount
+                WHERE AccountID = p_from_accnt;
+
+                UPDATE Accounts
+                SET Balance = Balance + p_amount
+                WHERE AccountID = p_to_accnt;
+                END IF;
+        END;
+    END;
+    /
+    COMMIT;
+EXECUTE TransferFunds(101, 102, 500);
+SELECT * FROM Accounts;
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Upskilling/Module-1-HTML5/index.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Community Event Portal</title>
+</head>
+<body>
+    <!--Navigation-->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!--Main-->
+    <main>
+        <div id="welcome-banner" 
+        style="color: white; background-color: rgb(89, 89, 233); font-weight: bold; border-radius: 15px; align-items: center; height: 50px; display: flex;justify-content: center">
+            Welcome back!  
+            <span style="color: rgb(234, 234, 74)"> Special Offer: Free Entry this weekend</span>
+        </div>
+        <table style="width:100%; border-collapse:collapse;">
+    <tr>
+        <td style="width:33.33%;">
+            <figure>
+                <img src="event1.jpg" alt="Event 1" caption="Festival"
+                     style="width:100%; height:250px; object-fit:cover;">
+                <figcaption>Festival</figcaption>
+            </figure>
+        </td>
+        <td style="width:33.33%;">
+            <figure>
+                <img src="event2.jpg" alt="Event 2" caption="Painting at the park"
+                     style="width:100%; height:250px; object-fit:cover;">
+                <figcaption>Painting at the park</figcaption>
+            </figure>
+        </td>
+        <td style="width:33.33%;">
+            <figure>
+            <img src="event3.jpg" alt="Event 3" caption="Marathon"
+                 style="width:100%; height: 250px; object-fit:cover;">
+                <figcaption>Marathon</figcaption>
+            </figure>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <figure>
+                <img src="event4.jpg" alt="Event 4" caption="Music Night"
+                     style="width:100%; height:250px; object-fit:cover;">
+                <figcaption>Music Night</figcaption>
+            </figure>
+        </td>
+        <td>
+            <figure>
+                <img src="event5.jpg" alt="Event 5" caption="Tree Planting"
+                     style="width:100%; height:250px; object-fit:cover;">
+                <figcaption>Tree Planting</figcaption>
+            </figure>
+        </td>
+        <td>
+            <figure>
+                <img src="event6.jpg" alt="Event 6" caption="Book Fair"
+                     style="width:100%; height:250px; object-fit:cover;">
+                <figcaption>Book Fair</figcaption>
+            </figure>
+        </td>
+    </tr>
+</table>
+<h2>Register for an Event</h2>
+<form>
+    <table>
+    <tr>
+        <td>
+        <label>Full Name</label><br>
+        <input type="text" placeholder="Jane Doe" required>
+        </td>
+        <td>
+        <label>Email</label><br>
+        <input type="email" placeholder="jane.doe@example.com" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <label>Event date</label><br>
+        <input type="date" placeholder="dd/mm/yyyy" required>
+        </td>
+        <td>
+        <label>Event type</label><br>
+        <select required>
+            <option value="">Select an event type</option>
+            <option value="festival">Festival</option>
+            <option value="painting">Painting at the park</option>
+            <option value="marathon">Marathon</option>
+            <option value="music">Music Night</option>
+            <option value="tree">Tree Planting</option>
+            <option value="book">Book Fair</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        <label>Message</label><br>
+        <textarea placeholder="Enter any additional comments here..." rows="4" cols="50"></textarea>
+        </td>
+    </tr>
+    <tr>
+    <td colspan="2" style="text-align:right;">
+        <button type="submit"
+                style="background-color:#534caf; color:white; padding:10px 20px; border-radius:5px; cursor:pointer;">
+            Register
+        </button>
+    </td>
+</tr>
+    </table>
+<output style="color: green; font-weight: bold; background-color: lightgreen; padding: 10px; border-radius: 5px;">
+    ✓ Registration confirmed! You'll receive a confirmation email shortly.
+</output>
+</form>
+<h2>Register for an Event</h2>
+<form>
+    <table>
+    <tr>
+        <td>
+        <label>Phone Number</label><br>
+        <input type="tel" placeholder="123-456-7890" onblur="if(this.value.length!=10) alert('Invalid number');" required>
+        </td>
+        <td>
+        <label>Event Type</label><br>
+        <select onchange="document.getElementById('fee').value=this.value" required>
+            <option value="">Select an event type</option>
+            <option value="10">Festival</option>
+            <option value="10">Painting at the park</option>
+            <option value="10">Marathon</option>
+            <option value="10">Music Night</option>
+            <option value="10">Tree Planting</option>
+            <option value="10">Book Fair</option>
+        </select>
+        Fee:
+        <output id="fee"></output>
+        </td>
+    </tr>
+    </main>
+
+    <!--Footer-->
+    <footer></footer>
+    
+</body>
+</html>
+</file>
+
+<file path="digital-nature-5.0-main/Java FSE/Upskilling/Module-1-HTML5/style.css">
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+main {
+    padding: 20px;
+}
+form {
+    margin-top: 20px;
+    justify-content: left;
+}
+form table {
+    width: 100%;
+    border-spacing: 10px;
+}
+label {
+    font-weight:bold;
+    font-size: 14px;
+}
+</file>
+
+</files>
